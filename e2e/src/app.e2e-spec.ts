@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('PTI-JS app is running!');
+    expect(page.getTitleText()).toEqual('PTI3D app is running!');
   });
 
   afterEach(async () => {
